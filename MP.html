@@ -1,0 +1,544 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/btd5phy.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+
+        * {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* variables */
+:root {
+  --background-primary-color--: #000000;
+  --background-secondary-color: #0b0c10;
+  --background-tertiary-color--: #121212;
+  --text-primary-color--: #ffffff;
+  --text-secondary-color--: #66fcf1;
+}
+
+/*  */
+
+html {
+  font-size: 62.5%;
+}
+
+.header {
+  background-color: var(--background-primary-color--);
+
+  padding: 3.4rem 0 2rem 0;
+}
+
+.nav {
+  margin: 0 0 0 78rem;
+}
+
+.nav-links {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--text-primary-color--);
+  letter-spacing: 1px;
+  font-weight: 600;
+
+  margin: 0 3.2rem 0 0;
+}
+
+.nav-links:hover {
+  color: #ddd;
+}
+.firstsection{
+        display: flex;
+        justify-content: space-around;
+        margin: 50px 0;
+        align-items: center;
+      }
+      .firstsection div{
+       width: 30%;
+      }
+      .leftsection{
+        font-size: 4.6rem;
+        
+      }
+      .rightsection img{  
+        width: 80%;
+        margin: 50px 0;
+      }
+      .purple{
+        color: rgb(150, 75, 220);
+      }
+      #element {
+            color: blueviolet;
+      }
+      .secondsection{
+        max-width: 80vw;
+        margin: auto;
+        padding: 20px;
+      }
+      hr{
+        margin: 40px  84px;
+      }
+      .secondsection h1{
+        font-size: 5rem;
+      }
+      .secondsection p{
+        font-size: 3.5rem;
+      }
+
+.services-section {
+  background-color: var(--background-secondary-color);
+
+  position: relative;
+
+  padding: 9.6rem 0 2rem 20rem;
+}
+
+.services-section h2::after {
+  content: "";
+  background-color: var(--text-secondary-color--);
+
+  height: 2px;
+  width: 80px;
+
+  position: absolute;
+  top: 13.5rem;
+  left: 10rem;
+}
+
+.service {
+  background-color: var(--background-tertiary-color--);
+
+  display: inline-block;
+
+  padding: 4rem 6rem;
+  margin: 2rem;
+  width: 65rem;
+}
+
+.services-section h2 {
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 5rem;
+  color: var(--text-primary-color--);
+
+  margin-bottom: 6rem;
+}
+
+.icons {
+  font-size: 6.4rem;
+  color: var(--text-secondary-color--);
+
+  margin-bottom: 4rem;
+}
+
+.service span {
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: var(--text-primary-color--);
+
+  position: relative;
+}
+
+.service span::after {
+  content: "";
+  background-color: var(--text-secondary-color--);
+
+  display: inline-block;
+
+  height: 9%;
+  width: 80px;
+  position: absolute;
+  top: 6rem;
+  left: 0;
+}
+
+.service p {
+  color: var(--text-primary-color--);
+  font-size: 1.7rem;
+  line-height: 3.4rem;
+
+  margin-top: 8.2rem;
+}
+
+
+.experience-section {
+  background-color: var(--background-primary-color--);
+
+  position: relative;
+  padding: 9.6rem 0 2rem 20rem;
+}
+
+.experience {
+  width: 80rem;
+  margin: 0 0 0 30rem;
+}
+
+.experience-section h2 {
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 4.8rem;
+  color: var(--text-primary-color--);
+
+  margin-bottom: 6rem;
+}
+
+.experience-section h2::after {
+  content: "";
+  background-color: var(--text-secondary-color--);
+
+  height: 2px;
+  width: 80px;
+  position: absolute;
+  top: 13.5rem;
+  left: 10rem;
+}
+
+.experience-icon {
+  display: inline-block;
+
+  margin: 0 2rem 0 2rem;
+}
+
+.lang-icon {
+  width: 8rem;
+  margin-bottom: 6rem;
+}
+
+.middle-icon {
+  margin-left: 18rem;
+}
+
+
+.contact-section {
+  background-color: var(--background-secondary-color);
+
+  position: relative;
+  padding: 9.6rem 0 2rem 20rem;
+}
+
+.contact-section h2 {
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 4.8rem;
+  color: var(--text-primary-color--);
+
+  margin-bottom: 6rem;
+}
+
+.contact-section h2:after {
+  content: "";
+  background-color: var(--text-secondary-color--);
+
+  height: 2px;
+  width: 80px;
+  position: absolute;
+  top: 13.5rem;
+  left: 10rem;
+}
+
+.contact-text {
+  display: inline-block;
+}
+
+.contact-text p {
+  font-size: 3.2rem;
+  line-height: 3.4rem;
+  color: var(--text-primary-color--);
+
+  margin-bottom: 6rem;
+}
+
+.contact-icons {
+  font-size: 2.4rem;
+  color: var(--text-secondary-color--);
+}
+
+.contact-form {
+  background-color: var(--background-primary-color--);
+  border-radius: 20px;
+  display: inline-block;
+
+  margin-left: 30rem;
+  padding: 4rem 8rem;
+}
+
+input {
+  display: block;
+
+  margin-bottom: 2rem;
+}
+
+.footer-icons-text {
+  margin-bottom: 2rem;
+}
+
+.form {
+  font-size: 2rem;
+  border-radius: 10px;
+  background-color: #e9ecef;
+  text-transform: capitalize;
+  outline: none;
+
+  padding: 0.9rem 1rem;
+  margin-bottom: 3rem;
+}
+
+.form::placeholder {
+  font-size: 1.6rem;
+}
+
+.footer-links {
+  font-size: 1.6rem;
+  color: var(--text-primary-color--);
+  text-decoration: none;
+}
+.footer-section {
+  background-color: var(--background-primary-color--);
+
+  padding: 2rem;
+}
+
+.footer p {
+  font-size: 1.6rem;
+  color: var(--text-primary-color--);
+
+  margin-left: 60rem;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.social-media {
+  font-size: 2.4rem;
+  color: var(--text-primary-color--);
+  cursor: pointer;
+
+  margin-left: 1.6rem;
+}
+
+.social-media:hover {
+  color: var(--text-secondary-color--);
+}
+
+.footer-icons {
+  margin-left: 30rem;
+}
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <ul class="nav-lists">
+          <a href="#" class="nav-links">Home</a>
+          <a href="#about" class="nav-links">About me</a>
+          <a href="#services" class="nav-links">service</a>
+          <a href="#contact" class="nav-links">contact</a>
+          <a href="#experience" class="nav-links">Experience</a>
+        </ul>
+      </nav>
+    </header>
+
+
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+            Hi My Name Is <span class="purple">Shubham</span><br>
+            And I am 
+            <span id="element"></span>
+        </div>
+        <div class="rightsection">
+          <img src="dev.png" alt="">
+        </div>
+      </section>    
+      <section class="secondsection">
+        <h1>About</h1>
+        <p>Hi! I'm Shubham, a web Developer with a passion for exploring hidden patterns and stories within information.
+          When I'm not wrangling spreadsheets, I love getting lost in a good book or exploring the city's hidden hiking trails.
+          I believe in approaching challenges with a curious mind and a collaborative spirit.</p>
+      </section>
+      <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+      <script>
+        var typed = new Typed('#element', {
+          strings: ['Graphic Designer','Web Developer'],
+          typeSpeed: 50,
+        });
+        </script>
+
+
+      <section class="services-section"  id="services">
+        <h2>Services.</h2>
+        <div class="services">
+          <div class="service">
+            <div >
+              <ion-icon name="desktop-outline" class="icons"></ion-icon>
+            </div>
+            <span>Web design</span>
+            <p>
+              I specialize in making websites that are both easy to use and
+              visually appealing. From the design to
+              how it works on different devices, I focus on making everything
+              user-friendly and attractive. 
+            </p>
+          </div>
+          <div class="service">
+            <div>
+              <ion-icon name="code-slash-outline" class="icons"></ion-icon>
+            </div>
+            <span>Web Development</span>
+            <p>
+              I specialize in bringing ideas to life through coding and
+              development. Whether it's building a website from scratch or
+              creating custom software, I thrive on turning concepts into
+              functional, user-friendly realities.
+            </p>
+          </div>
+          <div class="service">
+            <div>
+              <ion-icon name="phone-portrait-outline" class="icons"></ion-icon>
+            </div>
+            <span >responsive design</span>
+            <p>
+              Today, browsing happens on all sorts of devices, from phones to
+              tablets to computers.I focus on creating websites that
+              look fantastic and work seamlessly on any screen size.
+            </p>
+          </div>
+          <div class="service">
+            <div>
+              <ion-icon name="logo-github" class="icons"></ion-icon>
+            </div>
+            <span>version control</span>
+            <p>
+              Version control is like a safety net for your projects. It's a
+              tool that tracks changes in your code, allowing you to go back to
+              earlier versions if needed.
+            </p>
+          </div>
+        </div>
+      </section>
+
+     
+
+      <section class="experience-section" id="experience">
+        <h2>Experience.</h2>
+        <div class="experience">
+          <div class="experience-icon">
+            <img src="html.png" alt="html logo"  class="lang-icon"/>
+          </div>
+          <div class="experience-icon">
+            <img src="css.png" alt="css logo" class="lang-icon" />
+          </div>
+          <div class="experience-icon">
+            <img src="javascript.png" alt="js logo" class="lang-icon" />
+          </div>
+          <div class="experience-icon">
+            <img src="github.png" alt="github logo"  class="lang-icon"/>
+          </div>
+          </div>
+        </div>
+      </section>
+
+     
+      <section class="contact-section" id="contact">
+        <h2>Contact.</h2>
+        <div class="contact">
+          <div class="contact-text">
+            <p>Drop me a message!</p>
+
+            <div class="contact-details">
+              <div class="footer-icons-text">
+                <span
+                  ><ion-icon
+                    name="call-outline"
+                    class="contact-icons"
+                  ></ion-icon
+                ></span>
+                <a href="tel:******9833" class="footer-links"
+                  >+91 ******9833</a
+                >
+              </div>
+              <div class="footer-icons-text">
+                <span
+                  ><ion-icon
+                    name="mail-outline"
+                    class="contact-icons"
+                  ></ion-icon
+                ></span>
+                <a href="mailto:shubhaminamdar93@gmail.com" class="footer-links"
+                  >shubhaminamdar93@gmail.com</a
+                >
+              </div>
+              <div class="footer-icons-text">
+                <span
+                  ><ion-icon
+                    name="earth-outline"
+                    class="contact-icons"
+                  ></ion-icon
+                ></span>
+                <span class="footer-links"</span>Solapur, Maharashtra, India.</span>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form>
+              <input type="text" placeholder="Name" class="form" />
+              <input type="email" placeholder="Email"  class="form" />
+              <textarea cols="30" rows="10" placeholder="Message" class="form" ></textarea>
+            </form>
+            <button class="cta">Send</button>
+          </div>
+        </div>
+      </section>
+
+      
+      <footer class="footer-section">
+        <div class="footer">
+        
+            <!-- <a href="#" class="inline-block">Logo</a> -->
+            <p class="inline-block  ">2024 - Shubham Inamdar. All rights reserved</p>
+       
+          <div class="footer-icons inline-block">
+            <span class="social-media"
+              ><ion-icon name="logo-facebook"></ion-icon
+            ></span>
+            <span class="social-media"
+              ><ion-icon name="logo-twitter"></ion-icon
+            ></span>
+            <span class="social-media"
+              ><ion-icon name="logo-linkedin"></ion-icon
+            ></span>
+            <span class="social-media"
+              ><ion-icon name="logo-github"></ion-icon
+            ></span>
+          </div>
+        </div>
+      </footer>
+
+    </main>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
